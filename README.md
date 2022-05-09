@@ -19,7 +19,7 @@ I still use Microsoft Access as my main VB/A development environment, so you'll 
 - RowListLibFull_Tests.accdb is the one containing the whole enchillada;
 - RowListLib_Tests.accdb is (or should be) the same, but it uses the twinBasic compiled 32bits binary of the library instead of the core classes source code, so tests can be run one the compiled library.
 
-The code has been made compatible with twinBasic recently, and a 32bits binary version, that I actually use in production applications, can be downloaded from my company's website: [RowListLib_win32.dll on devinfo.net](https://devinfo.net/download/RowListLib_win32.dll) .
+The code has been made compatible with twinBasic recently, and a 32bits binary version, that I actually use in production applications, can be downloaded from my company's website: [RowListLib_win32.dll on devinfo.net](https://devinfo.net/downloads/RowListLib_win32.dll) .
 
 # Oops
 
