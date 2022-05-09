@@ -51,6 +51,8 @@ While maintaining column names and definitions in list and row objects is certai
 
 Take a look at the test code to see how many ways there are to define a list or a row and to add/delete/sort rows.
 
+To run the test suites (VBA), go to the debug window ([CTRL]+[g]) and type "MRunTests.RunAllTests" (w/o quotes) and hit enter.
+
 ### Performance
 
 There's some interesting tests on performance where insertion and retrieval is compared to the performance of a collection.
