@@ -21,6 +21,10 @@ I still use Microsoft Access as my main VB/A development environment, so you'll 
 
 The code has been made compatible with twinBasic recently, and a 32bits binary version, that I actually use in production applications, can be downloaded from my company's website: [RowListLib_win32.dll on devinfo.net](https://devinfo.net/download/RowListLib_win32.dll) .
 
+# Oops
+
+Check if there's a "Stop" statement in the CompNonObjectValues() method of CList and please delete the line or comment it; although I never reached the code in my tests and in production, that is an application killer if that would happen. I'll get it fixed but in the mean time, sorry for that, you'll have to eventually do it yourself.
+
 ## A bit of history
 
 I started to develop this library a long time ago. My inspiration dates back to 2003, when I came to experience the list object available in the OMNIS L4G cross-platform development environment. Since then, I never came across anything like it, so I continued developing these classes and using them to boost my productivity with quite some success in RAD and production uses cases. I cannot count how many of my classes and solutions are based on these classes, so hopefully they're not too buggy, at least they're stable enough for me to use in production.
